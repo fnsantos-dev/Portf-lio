@@ -1,0 +1,187 @@
+
+h1{
+    color: #488db4;
+    font-size: 36px;
+    font-style: normal;
+
+}
+body{
+    font-family: futura md bt;
+    margin: 0;
+    
+}
+
+    
+.port{
+
+    font-family: pulchra spf light;
+    font-size: 80px;
+    color: #273949;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5%;
+
+}
+.dados{
+    text-align: center;
+}
+.contain ul{
+    display:flex;
+    flex-direction: column;
+}
+
+.contain{
+    display:flex;
+    flex-direction: row;
+    margin-left: 1%;
+    color:#273949;
+}
+.contain ul li{
+    font-size: 18px;
+}
+.espaço{
+    margin-left: 15%;
+}
+
+.datas{
+    color: #8c949d;
+}
+hr{
+    color: #3d3d85;
+}
+.experiencia{
+    font-size: 20px;
+}
+p{
+    margin-left: 2%;
+    color: #273949;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    
+    
+
+}
+.nav li{
+    display: inline-flex;
+    list-style: none;
+    padding: 2px;
+}
+.nav a{
+    text-decoration: none;
+    padding-block: 16px;
+    margin: auto;
+}
+.header{
+
+    top:0;
+    background-color: #488db4;
+    padding-inline: 16px;
+    position: fixed;
+    width: 100%;
+}
+
+
+.nav-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 5%;
+}
+.nav-list li{
+    padding: 10px;
+    margin-right: 5%;
+}
+.nav-list a{
+    color: aliceblue;
+    font-size: 25px;
+    
+}
+.nav-list a:active{
+    color: aliceblue;
+    font-size: 25px;
+}
+.nav-list a:hover{
+    color: #8c949d;
+    font-size: 25px;
+}
+
+
+@media(max-width: 1000px){
+    .contain ul li{
+        font-size: 30px;
+    }
+    .port{
+        font-size: 50px;
+    }
+    .cabeca{
+        margin-right: 15%;
+    }
+    .menu{
+        margin-right: 0%;
+    }
+}
+.tudo{
+    margin-inline: 5%;
+}
+.presentation{
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    background-color: aliceblue;
+    border-radius: 5%;
+    opacity: 0.5;
+}
+.box img{
+    max-height: 600px;
+    border-radius: 60%;
+    outline: 3px solid #488db4;
+
+
+
+}
+
+.aaaa{
+    text-align: left;
+    font-size: 50px;
+    min-width: 130%;
+
+}
+.box{
+    display: flex;
+    max-width: 30%;
+    margin-left:30%;
+    margin-top: 10%;
+    margin-bottom: 30px;
+}
+.text{
+    margin-left: 15%;
+    font-size: 20px;
+    max-width: max-content;
+    min-width: 130%;
+    text-align: justify;
+
+
+}
+.paragrafo{
+    font-size: 20px;
+    max-width: max-content;
+
+}
+section{
+    max-width: 1200px;
+    z-index: 2;
+}
+.back{
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    justify-content: flex-end;
+    position: fixed;
+    bottom:0;
+    right: 0;
+}

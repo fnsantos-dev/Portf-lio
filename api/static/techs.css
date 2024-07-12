@@ -1,0 +1,76 @@
+body{
+    font-family: futura md bt;
+    margin: 0;
+}
+h1{
+    color: #488db4;
+    font-size: 36px;
+    font-style: normal;
+
+}
+article{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -10%;
+}
+.tecnologias li{
+    list-style: none;
+    padding: 20px;
+    font-size: 30px;
+    margin-inline: 10%;
+    min-width: max-content;
+    text-align: center;
+
+}
+.w3-light-grey{
+    background-color: #8c949d;
+    border-radius: 5px;
+}
+.w3-container{
+    text-align: center;
+    border-radius: 5px;
+
+
+}
+.tec{
+    margin-top: 70px;
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 0;
+}
+.tecnologias{
+    min-width: 100%;
+    display: flex;
+    margin-left: -50%;
+    justify-content: center;
+    align-items: center;
+}
+.pag1{
+    min-width: 100%;
+}
+.pag2{
+    min-width: 100%;
+}
+.tecnologias ul{
+    margin-inline: 5%;
+
+}
+.ok{
+    background-color: orange;
+}
+.experient{
+    background-color: #488db4;
+}
+.frequente{
+    background-color: aquamarine;
+}
+.danger{
+    background-color: red;
+}
+.back{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 0px;
+}

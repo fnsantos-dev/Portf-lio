@@ -1,0 +1,43 @@
+body{
+    font-family: futura md bt;
+    margin: 0;
+    z-index: 1;
+}
+
+h1{
+    color: #488db4;
+    font-size: 36px;
+    font-style: normal;
+    outline-color: black;
+    outline-width: 2px;
+
+}
+.paragrafo{
+    font-size: 20px;
+    text-align: justify;
+    margin-right: 5%;
+}
+.port
+{
+    text-align: center;
+    font-size: 60px;
+}
+.centralizado{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+.classic{
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-bottom: 5%;
+}
+.back{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+

@@ -1,0 +1,117 @@
+body{
+    font-family: futura md bt;
+    margin: 0;
+    
+}
+h1{
+    color: #488db4;
+    font-size: 36px;
+    font-style: normal;
+
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    
+
+}
+.nav li{
+    display: inline-flex;
+    list-style: none;
+    padding: 2px;
+}
+.nav a{
+    text-decoration: none;
+    padding-block: 5px;
+    margin: auto;
+}
+.header{
+
+    top:0;
+    background-color: #488db4;
+    padding-inline: 16px;
+    position: fixed;
+    width: 100%;
+    margin-bottom: 70px;
+    z-index: 2;
+}
+
+
+.nav-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 5%;
+    justify-content: center;
+}
+.nav-list li{
+    padding: 10px;
+    margin-right: 5%;
+}
+.nav-list a{
+    color: aliceblue;
+    font-size: 25px;
+    
+}
+.nav-list a:active{
+    color: aliceblue;
+    font-size: 25px;
+}
+.nav-list a:hover{
+    color: #8c949d;
+    font-size: 25px;
+}
+.box img{
+    max-height: 600px;
+    border-radius: 60%;
+    outline: 3px solid #488db4;
+
+
+
+}
+
+.aaaa{
+    text-align: left;
+    font-size: 50px;
+    min-width: 130%;
+
+}
+.box{
+    display: flex;
+    max-width: 30%;
+    margin-left:30%;
+    margin-top: 10%;
+    margin-bottom: 30px;
+}
+.text{
+    margin-left: 15%;
+    font-size: 20px;
+    max-width: max-content;
+    min-width: 130%;
+    text-align: justify;
+
+
+}
+.paragrafo{
+    font-size: 20px;
+    max-width: max-content;
+
+}
+section{
+    max-width: 1200px;
+    z-index: 2;
+}
+.back{
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    justify-content: flex-end;
+    position: fixed;
+    bottom:0;
+    right: 0;
+}
+.tecnologias{
+    display: flex;
+}
