@@ -15,7 +15,6 @@ def sobre():
 
 @app.route('/trabalhos')
 def trabalhos():
-
     return render_template('trabalhos.html')
 
 if __name__ == "__main__":
