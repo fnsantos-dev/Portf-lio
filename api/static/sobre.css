@@ -153,9 +153,6 @@ section{
     .mobile-menu{
         display: block;
     }
-    .nav-list ul{
-        margin-bottom: 10%;
-    }
 
     .nav-list{
         position: absolute;
@@ -181,7 +178,7 @@ section{
 @keyframes navLinkFade {
     from {
       opacity: 0;
-      transform: translateX(45px);
+      transform: translateX(50px);
     }
     to {
       opacity: 1;

@@ -15,7 +15,6 @@ h1{
 .paragrafo{
     font-size: 20px;
     text-align: justify;
-    margin-right: 5%;
 }
 .port
 {
@@ -31,7 +30,6 @@ h2{
 }
 .classic{
     margin-top: 5%;
-    margin-left: 20%;
     margin-bottom: 5%;
 }
 .back{
@@ -40,4 +38,36 @@ h2{
     right: 0;
     z-index: -1;
 }
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+article{
+    margin-inline: 20%;
+}
 
+
+@media (max-width:768px){
+    .ima{
+        max-width: 100%;
+    }
+    article{
+        margin-inline: 10%;
+        margin-top: 8vh;
+        margin-bottom: 20%;
+    }
+    .paragrafo{
+        margin: 0;
+    }
+    .port{
+        font-size: 30px;
+    }
+    .paragrafo{
+        font-size: 16px;
+    }
+    h2{
+        font-size: 20px;
+    }
+
+}
