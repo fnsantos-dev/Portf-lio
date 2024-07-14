@@ -37,12 +37,10 @@ article{
     margin-top: 70px;
     text-align: center;
     font-size: 60px;
-    margin-bottom: 0;
 }
 .tecnologias{
     min-width: 100%;
     display: flex;
-    margin-left: -50%;
     justify-content: center;
     align-items: center;
 }
@@ -74,3 +72,24 @@ article{
     right: 0;
     margin: 0px;
 }
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media  (max-width:768px){
+    .tecnologias{
+        display: block;
+        
+    }
+    .tecnologias li{
+        margin-inline: 0;
+    }
+    .tecnologias ul{
+        margin-left: 0;
+    }
+    article{
+        margin-top: 0;
+    }
+}
+    
